@@ -18,4 +18,4 @@
 	url = git://github.com/flazz/vim-colorschemes.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
-	url = https://github.com/msanders/snipmate.vim
+	url = git://github.com/garbas/vim-snipmate.git
