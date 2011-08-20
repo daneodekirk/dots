@@ -12,12 +12,16 @@ map ,d :diffthis<CR>
 map ,D :diffoff<CR>
 map <C-l> "hy:%s/<C-r>h//gc<left><left><left>
 
+
 map ,r :colorscheme random<CR>
+
+"Command-T
+let g:CommandTAcceptSelectionVSplitMap='<S-CR>'
 
 autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
 autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bundle/closetag/plugin/closetag.vim
 
-set autochdir
+"set autochdir
 set number
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 set ai!
@@ -38,3 +42,4 @@ au BufNewFile,BufEnter *.zcml set filetype=xml
 autocmd FileType python set ft=python.django 
 autocmd FileType html set ft=html.css.javascript 
 autocmd FileType html set ft=html.htmldjango.css.javascript 
+
