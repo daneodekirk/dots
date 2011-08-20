@@ -12,11 +12,19 @@ map ,d :diffthis<CR>
 map ,D :diffoff<CR>
 map <C-l> "hy:%s/<C-r>h//gc<left><left><left>
 
-
 map ,r :colorscheme random<CR>
+
+" Get .swp files centralized and out of my dropbox!
+set dir=~/.vim-tmp 
+
+"Disable MacVim toolbar
+if has("gui_running")
+    set guioptions=-t
+endif
 
 "Command-T
 let g:CommandTAcceptSelectionVSplitMap='<S-CR>'
+
 
 autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
 autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bundle/closetag/plugin/closetag.vim
