@@ -1,0 +1,11 @@
+[user]
+	name = Dane Odekirk
+	email = dizzzy@uw.edu
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+	b = branch
+	sub = submodule
+[core]
+	editor = mvim -f
