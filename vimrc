@@ -61,4 +61,3 @@ endif
 
 "Show statusline
 map ,s :set laststatus=2<CR>
-
