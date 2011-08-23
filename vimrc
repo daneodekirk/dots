@@ -51,6 +51,7 @@ colorscheme random
 au BufNewFile,BufEnter *.zcml set filetype=xml
 
 "Snipmate
+autocmd FileType eruby set ft=eruby.eruby-rails.html
 autocmd FileType python set ft=python.django 
 autocmd FileType html set ft=html.css.javascript 
 autocmd FileType html set ft=html.htmldjango.css.javascript 

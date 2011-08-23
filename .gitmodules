@@ -37,3 +37,4 @@
 [submodule "vim/bundle/latex"]
 	path = vim/bundle/latex
 	url = https://github.com/isaacaggrey/LaTeX-Suite-aka-Vim-LaTeX.git
+    ignore = untracked
