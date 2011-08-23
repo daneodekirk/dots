@@ -6,11 +6,14 @@ filetype plugin indent on
 "let mapleader=","
 
 map <silent> <C-h> :hide<CR> 
-map <silent> <C-p> :Project<CR>
 map <silent> <C-N> :nohlsearch<CR>
 map ,d :diffthis<CR>
 map ,D :diffoff<CR>
 map <C-l> "hy:%s/<C-r>h//gc<left><left><left>
+
+" Fugitive 
+map ,gs :Gstatus<CR>
+map ,gc :Gcommit<CR>
 
 " randomly choose another color scheme
 map ,r :colorscheme random<CR>
@@ -26,10 +29,6 @@ endif
 
 "Command-T
 let g:CommandTAcceptSelectionVSplitMap='<S-CR>'
-
-
-"autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
-"autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bundle/closetag/plugin/closetag.vim
 
 "set autochdir
 set number
