@@ -36,8 +36,8 @@ set ai!
 set ic hls is
 set hidden
 
-set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
-au FileType ruby,eruby set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+au FileType python set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
 " Disable localized menus for now since only some items are translated (e.g.
 " the entire MacVim menu is set up in a nib file which currently only is
