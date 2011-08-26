@@ -15,6 +15,12 @@ map <C-l> "hy:%s/<C-r>h//gc<left><left><left>
 map ,gs :Gstatus<CR>
 map ,gc :Gcommit<CR>
 
+"Coffeescript
+map ,cc :CoffeeCompile<CR>
+map ,ccw :CoffeeCompile watch vert<CR>
+map ,ccwo :CoffeeCompile unwatch<CR>
+
+
 " randomly choose another color scheme
 map ,r :colorscheme random<CR>
 map <leader>r :colorscheme<CR>
