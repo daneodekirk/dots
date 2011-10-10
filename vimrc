@@ -36,6 +36,7 @@ endif
 "Command-T
 let g:CommandTAcceptSelectionVSplitMap='<S-CR>'
 set wildignore+=node_modules
+map <leader>f :CommandTFlush
 
 "set autochdir
 set number
