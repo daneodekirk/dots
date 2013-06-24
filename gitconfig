@@ -2,6 +2,7 @@
 	name = Dane Odekirk
 	email = dizzzy@uw.edu
 [alias]
+  undo = reset --soft HEAD~1
 	co = checkout
 	st = status
 	ci = commit
