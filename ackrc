@@ -1,1 +1,12 @@
+# Sort files by default
+--sort-files
+
+# Use smart-case by default
 --smart-case
+
+# Extended File Types
+--type-add=css=.less,.scss,.sass
+--type-add=ruby=.haml
+--type-set=coffee=.coffee
+--type-set=markdown=.md,.markdown
+--type-set=json=.json
