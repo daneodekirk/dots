@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ln -s .dots/bash_profile .bash_profile 
+ln -s .dots/ackrc .ackrc
+ln -s .dots/gitconfig .gitconfig
+ln -s .dots/vimrc .vimrc
